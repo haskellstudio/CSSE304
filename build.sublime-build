@@ -1,0 +1,12 @@
+{
+	"cmd": ["start", "cmd", "/k", "petite", "$file"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"shell": true,
+
+	"variants": [
+		{ 	"cmd": ["start", "cmd"],
+			"name": "args",
+			"shell": true,
+		}
+	]
+}
